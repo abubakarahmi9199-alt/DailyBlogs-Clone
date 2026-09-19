@@ -1,235 +1,285 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Daily Blogs - Explore. Learn. Grow Daily.</title>
+    <title>Daily Blogs - Your All-in-One Knowledge Hub</title>
 
-    <!-- CSS File -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- ================= HEADER ================= -->
-
+    <!-- HEADER -->
     <header class="header">
+        <div class="container header-container">
 
-        <div class="logo">
-            <span>D</span>
-            <h2>Daily Blogs</h2>
+            <a href="#" class="logo">
+                <span class="logo-letter">D</span>
+                <span class="logo-text">Daily Blogs</span>
+            </a>
+
+            <nav class="nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
         </div>
-
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-        </nav>
-
     </header>
 
 
-    <!-- ================= HERO SECTION ================= -->
+    <main>
 
-    <section class="hero">
+        <!-- HERO -->
+        <section class="hero" id="home">
+            <div class="container hero-content">
 
-        <div class="hero-content">
-
-            <h1>Explore. Learn. Grow Daily.</h1>
-
-            <p>
-                Your daily source for insightful articles on tech,
-                study materials, movies, games, jobs, visa guides,
-                and much more.
-            </p>
-
-            <a href="#topics" class="btn">
-                Start Reading
-            </a>
-
-        </div>
-
-    </section>
-
-
-    <!-- ================= TOPICS ================= -->
-
-    <section class="topics" id="topics">
-
-        <h2>Explore Our Topics</h2>
-
-        <div class="topic-container">
-
-            <div class="topic-card">
-                <div class="icon">💻</div>
-                <h3>Technology</h3>
+                <h1>Explore. Learn. Grow Daily.</h1>
 
                 <p>
-                    Latest trends in web development, programming,
-                    AI tools, cybersecurity and software engineering.
+                    Your daily source for insightful articles on tech, study
+                    materials, movies, games, jobs, visa guides, and much more.
                 </p>
+
+                <a href="#topics" class="hero-button">
+                    Start Reading
+                </a>
+
+            </div>
+        </section>
+
+
+        <!-- TOPICS -->
+        <section class="topics section" id="topics">
+
+            <div class="container">
+
+                <h2>Explore Our Topics</h2>
+
+                <div class="topic-container">
+
+                    <article class="topic-card">
+                        <div class="topic-icon">💻</div>
+
+                        <h3>Technology</h3>
+
+                        <p>
+                            Latest trends in web development, programming
+                            languages, AI tools, cybersecurity, and software
+                            engineering tutorials.
+                        </p>
+                    </article>
+
+
+                    <article class="topic-card">
+                        <div class="topic-icon">📚</div>
+
+                        <h3>Study Materials</h3>
+
+                        <p>
+                            Comprehensive guides, university resources, exam
+                            preparation tips, data science courses, and
+                            educational articles.
+                        </p>
+                    </article>
+
+
+                    <article class="topic-card">
+                        <div class="topic-icon">🎬</div>
+
+                        <h3>Movies &amp; Games</h3>
+
+                        <p>
+                            In-depth movie reviews, game guides, upcoming
+                            releases, entertainment news, and recommended
+                            watchlists.
+                        </p>
+                    </article>
+
+
+                    <article class="topic-card">
+                        <div class="topic-icon">💼</div>
+
+                        <h3>Jobs &amp; Career</h3>
+
+                        <p>
+                            Job search tips, resume writing guides, interview
+                            preparation, freelancing advice, and earning
+                            opportunities online.
+                        </p>
+                    </article>
+
+
+                    <article class="topic-card">
+                        <div class="topic-icon">✈️</div>
+
+                        <h3>Visa &amp; Immigration</h3>
+
+                        <p>
+                            Step-by-step visa application guides, study abroad
+                            tips, immigration policies, and foreign study
+                            resources for 2026.
+                        </p>
+                    </article>
+
+
+                    <article class="topic-card">
+                        <div class="topic-icon">🏛️</div>
+
+                        <h3>Government Schemes</h3>
+
+                        <p>
+                            Latest government schemes, scholarships, subsidies,
+                            policy updates, and how to apply guides for
+                            students and citizens.
+                        </p>
+                    </article>
+
+                </div>
+
             </div>
 
+        </section>
 
-            <div class="topic-card">
-                <div class="icon">📚</div>
-                <h3>Study Materials</h3>
 
-                <p>
-                    University resources, exam preparation tips,
-                    courses and educational articles.
-                </p>
+        <!-- LATEST ARTICLES -->
+        <section class="articles section">
+
+            <div class="container">
+
+                <h2>Latest Articles</h2>
+
+                <div class="article-container">
+
+                    <article class="article-card">
+
+                        <span class="article-category">
+                            Technology
+                        </span>
+
+                        <h3>
+                            OpenClaw: The AI Automation Tool Changing Everything
+                        </h3>
+
+                        <p>
+                            Discover how OpenClaw is revolutionizing AI
+                            automation and what it means for developers and
+                            businesses in 2026.
+                        </p>
+
+                        <a href="#" class="read-more">
+                            Read Article →
+                        </a>
+
+                    </article>
+
+
+                    <article class="article-card">
+
+                        <span class="article-category">
+                            Study
+                        </span>
+
+                        <h3>
+                            Study Visa Application Process Explained (2026)
+                        </h3>
+
+                        <p>
+                            Complete step-by-step guide to applying for a study
+                            visa in 2026, including documents, fees, and
+                            interview tips.
+                        </p>
+
+                        <a href="#" class="read-more">
+                            Read Article →
+                        </a>
+
+                    </article>
+
+
+                    <article class="article-card">
+
+                        <span class="article-category">
+                            AI Tools
+                        </span>
+
+                        <h3>
+                            Top Free AI Tools for Students in 2026
+                        </h3>
+
+                        <p>
+                            Explore the best free AI tools for research,
+                            writing, coding, and productivity.
+                        </p>
+
+                        <a href="#" class="read-more">
+                            Read Article →
+                        </a>
+
+                    </article>
+
+                </div>
+
             </div>
 
+        </section>
 
-            <div class="topic-card">
-                <div class="icon">🎬</div>
-                <h3>Movies & Games</h3>
+
+        <!-- ABOUT -->
+        <section class="about section" id="about">
+
+            <div class="container">
+
+                <h2>Daily Blogs - Your All-in-One Knowledge Hub</h2>
 
                 <p>
-                    Movie reviews, game guides, upcoming releases
-                    and entertainment news.
+                    Welcome to Daily Blogs! We publish expert articles on
+                    technologies, coding tutorials, study materials, movie
+                    reviews, game guides, government schemes, job tips, resume
+                    writing, visa &amp; immigration help, Linux tools,
+                    cybersecurity, and much more.
                 </p>
+
             </div>
 
+        </section>
 
-            <div class="topic-card">
-                <div class="icon">💼</div>
-                <h3>Jobs & Career</h3>
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer" id="contact">
+
+        <div class="container footer-container">
+
+            <div>
+                <h3>Daily Blogs</h3>
 
                 <p>
-                    Job search tips, resume writing, interview
-                    preparation and freelancing advice.
+                    Your all-in-one knowledge hub for tech, education,
+                    entertainment, careers, and more.
                 </p>
             </div>
-
-
-            <div class="topic-card">
-                <div class="icon">✈️</div>
-                <h3>Visa & Immigration</h3>
-
-                <p>
-                    Visa application guides, study abroad tips
-                    and immigration resources.
-                </p>
-            </div>
-
-
-            <div class="topic-card">
-                <div class="icon">🏛️</div>
-                <h3>Government Schemes</h3>
-
-                <p>
-                    Government schemes, scholarships, subsidies
-                    and application guides.
-                </p>
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ================= LATEST ARTICLES ================= -->
-
-    <section class="articles">
-
-        <h2>Latest Articles</h2>
-
-        <div class="article-container">
-
-            <article class="article-card">
-
-                <span class="category">Technology</span>
-
-                <h3>
-                    OpenClaw: The AI Automation Tool
-                </h3>
-
-                <p>
-                    Discover how AI automation is changing
-                    technology and businesses.
-                </p>
-
-                <a href="#">Read Article →</a>
-
-            </article>
-
-
-            <article class="article-card">
-
-                <span class="category">Study Abroad</span>
-
-                <h3>
-                    Study Visa Application Process
-                </h3>
-
-                <p>
-                    A step-by-step guide to applying for a
-                    study visa.
-                </p>
-
-                <a href="#">Read Article →</a>
-
-            </article>
-
-
-            <article class="article-card">
-
-                <span class="category">AI Tools</span>
-
-                <h3>
-                    Top Free AI Tools for Students
-                </h3>
-
-                <p>
-                    Explore useful AI tools for research,
-                    writing, coding and productivity.
-                </p>
-
-                <a href="#">Read Article →</a>
-
-            </article>
-
-        </div>
-
-    </section>
-
-
-    <!-- ================= FOOTER ================= -->
-
-    <footer>
-
-        <div class="footer-content">
-
-            <h2>Daily Blogs</h2>
-
-            <p>
-                Your all-in-one knowledge hub for tech,
-                education, entertainment, careers and more.
-            </p>
 
             <div class="footer-links">
-                <a href="#">About</a>
-                <a href="#">Contact</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
                 <a href="#">Privacy Policy</a>
                 <a href="#">Terms of Service</a>
             </div>
 
-            <p class="copyright">
-                © 2026 Daily Blogs. All rights reserved.
-            </p>
+        </div>
 
+        <div class="copyright">
+            © 2025-2026 Daily Blogs. All rights reserved.
         </div>
 
     </footer>
 
 
-    <!-- JavaScript -->
     <script src="script.js"></script>
 
 </body>
 </html>
-```
